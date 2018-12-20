@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<PcGts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+	<Metadata>
+		<Creator>UPVLC</Creator>
+		<Created>2014-12-02T18:07:02</Created>
+		<LastChange>2014-12-23T11:55:40</LastChange>
+	</Metadata>
+	<Page imageWidth="4080" imageHeight="5440" imageFilename="JA.Jv3-068.jpg" custom="image-resolution: 205.97dpcm;">
+		<TextRegion type="paragraph" id="t1">
+			<Coords points="449,451 3718,400 3738,4491 433,4504" />
+			<TextLine id="t1_l02">
+				<Coords points="3694,650 475,757 475,1963 3694,1856" />
+				<Baseline points="475,874 3694,767" />
+				<TextEquiv>
+					<Unicode>remained therefore alone in the parlour, till joined</Unicode>
+				</TextEquiv>
+			</TextLine>
+			<TextLine id="t1_l01">
+				<Coords points="3624,401 479,492 479,756 3624,649" />
+				<Baseline points="479,706 3624,599" />
+				<TextEquiv>
+					<Unicode>too agreably employed to want her Society. She</Unicode>
+				</TextEquiv>
+			</TextLine>
+		</TextRegion>
+	</Page>
+</PcGts>

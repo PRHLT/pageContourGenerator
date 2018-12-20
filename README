@@ -1,0 +1,82 @@
+README
+-------------------------------------------------
+
+1. INSTALLATION
+
+In order to install the software just execute the command:
+
+make install
+
+This will leave the following command line tool: page_format_generate_contour
+
+2. USAGE
+
+The command line tool has 3 modes of usage:
+
+2.1 Help - lists the command line options
+
+./page_format_generate_contour --help
+Allowed options:
+  -h [ --help ]                         Generates this help message
+  -p [ --page_file ] arg (=page.xml)    Input page file path (by default 
+                                        ./page.xml)
+  -o [ --output_file ] arg (=contours.xml)
+                                        Output page file path (by default 
+                                        ./contours.xml)
+  -l [ --line_id ] arg (=l0)            Regions file path (by default l0)
+  -m [ --operation_mode ] arg (=FULL)   Operation mode of the command line 
+                                        tool, full generation of all contours 
+                                        (FULL) or single baseline generation 
+                                        (LINE) (default value is FULL)
+  -a [ --asc_offset ] arg (=70)         % Offset to baseline points to include 
+                                        ascendants (Default: 70)
+  -d [ --desc_offset ] arg (=30)        % Offset to baseline points to include 
+                                        descendants (Default: 30)
+  -v [ --verbosity ] arg (=0)           Verbosity os messages during execution 
+                                        [0-2]
+
+
+2.2 Full - Generates/modifies all contours for the baselines defined in the input Page XML file. 
+and saves them in the file path specified in option output_file. 
+
+./page_format_generate_contour -p 156730186.xml -m FULL -a 70 -d 30 -v 1                                                                 
+0 [0x7f1fd9abd9c0] INFO PRHLT null - <<INPUTED PARAMETERS>>
+0 [0x7f1fd9abd9c0] INFO PRHLT null - Page file              : 156730186.xml
+0 [0x7f1fd9abd9c0] INFO PRHLT null - Output file            : contours.xml
+0 [0x7f1fd9abd9c0] INFO PRHLT null - Line id                : l0
+0 [0x7f1fd9abd9c0] INFO PRHLT null - Operation mode         : FULL
+0 [0x7f1fd9abd9c0] INFO PRHLT null - Verbosity              : 1
+0 [0x7f1fd9abd9c0] INFO PRHLT.Page_File null - <<Loading Page Format File >> 156730186.xml
+1 [0x7f1fd9abd9c0] INFO PRHLT null - <<FULL MODE>>
+2 [0x7f1fd9abd9c0] INFO PRHLT null - <<Generating contours XML>>
+2 [0x7f1fd9abd9c0] INFO PRHLT null - <<APPLICATION EXITING CORRECTLY
+
+
+2.3 Line - Generates or modifies the contour of the specific line with the id given as input parameter 
+and saves the resulting XML in the file path specified in option output_file :
+
+./page_format_generate_contour -p 156730186.xml -m LINE -l l1 -a 70 -d 30 -v 1
+0 [0x7f3665a1e9c0] INFO PRHLT null - <<INPUTED PARAMETERS>>
+0 [0x7f3665a1e9c0] INFO PRHLT null - Page file              : 156730186.xml
+0 [0x7f3665a1e9c0] INFO PRHLT null - Output file            : contours.xml
+0 [0x7f3665a1e9c0] INFO PRHLT null - Line id                : l1
+0 [0x7f3665a1e9c0] INFO PRHLT null - Operation mode         : LINE
+0 [0x7f3665a1e9c0] INFO PRHLT null - Verbosity              : 1
+0 [0x7f3665a1e9c0] INFO PRHLT.Page_File null - <<Loading Page Format File >> 156730186.xml
+1 [0x7f3665a1e9c0] INFO PRHLT null - <<LINE MODE>>
+1 [0x7f3665a1e9c0] INFO PRHLT null - <<Generating contours XML>>
+2 [0x7f3665a1e9c0] INFO PRHLT null - <<APPLICATION EXITING CORRECTLY>>
+
+2.4 Clip - The tool clips all baselines in the page file to fit into its containing text
+regions and saves the resulting XML in the file path specified in option output_file:
+ page_format_generate_contour -p Mss_003357_0547_pag-429\[446\].xml -o test.xml -m CLIP -v 1
+ 1 [0x7fd5027189c0] INFO PRHLT null - <<INPUTED PARAMETERS>>
+ 1 [0x7fd5027189c0] INFO PRHLT null - Page file              : Mss_003357_0547_pag-429[446].xml
+ 1 [0x7fd5027189c0] INFO PRHLT null - Output file            : test.xml
+ 1 [0x7fd5027189c0] INFO PRHLT null - Line id                : l0
+ 1 [0x7fd5027189c0] INFO PRHLT null - Operation mode         : CLIP
+ 1 [0x7fd5027189c0] INFO PRHLT null - Verbosity              : 1
+ 1 [0x7fd5027189c0] INFO PRHLT.Page_File null - <<Loading Page Format File >> Mss_003357_0547_pag-429[446].xml
+ 2 [0x7fd5027189c0] INFO PRHLT.Page_File null - CLIPING LINES
+ 6 [0x7fd5027189c0] INFO PRHLT null - <<APPLICATION EXITING CORRECTLY>>
+

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+  <Metadata>
+    <Creator>UPVLC</Creator>
+    <Created>2014-12-02T18:07:02</Created>
+    <LastChange>2014-12-23T11:55:40</LastChange>
+  </Metadata>
+  <Page imageWidth="4080" imageHeight="5440" imageFilename="JA.Jv3-068.jpg" custom="image-resolution: 205.97dpcm;">
+    <TextRegion type="paragraph" id="t1">
+      <Coords points="449,451 3718,400 3738,4491 433,4504"/>
+      <TextLine id="t1_l01">
+        <Coords points="0,0 0,0"/>
+        <Baseline points="479,706 3624,599"/>
+        <TextEquiv>
+          <Unicode>too agreably employed to want her Society. She</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="t1_l02">
+        <Coords points="0,0 0,0"/>
+        <Baseline points="475,874 3694,767"/>
+        <TextEquiv>
+          <Unicode>remained therefore alone in the parlour, till joined</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="t1_l03">
+        <Coords points="0,0 0,0"/>
+        <Baseline points="467,1049 3616,935"/>
+        <TextEquiv>
+          <Unicode>by Mr Stanley &amp; her Aunt, who however after</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="t1_l04">
+        <Coords points="0,0 0,0"/>
+        <Baseline points="2495,1039 3076,999"/>
+        <TextEquiv>
+          <Unicode>continue</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="t1_l05">
+        <Coords points="0,0 0,0"/>
+        <Baseline points="466,1213 3661,1156"/>
+        <TextEquiv>
+          <Unicode>a few enquiries, allowed her to remain undisturb:</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="t1_l06">
+        <Coords points="0,0 0,0"/>
+        <Baseline points="450,1385 3648,1319"/>
+        <TextEquiv>
+          <Unicode>:ed and began their usual conversation on Politics.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="t1_l07">
+        <Coords points="0,0 0,0"/>
+        <Baseline points="446,1569 3656,1479"/>
+        <TextEquiv>
+          <Unicode>This was a subject on which they could never</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="t1_l08">
+        <Coords points="0,0 0,0"/>
+        <Baseline points="446,1737 3677,1675"/>
+        <TextEquiv>
+          <Unicode>agree, for Mr Stanley who considered himself as</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="t1_l09">
+        <Coords points="0,0 0,0"/>
+        <Baseline points="446,1917 3685,1835"/>
+        <TextEquiv>
+          <Unicode>perfectly qualified by his Seat in the House, to decide</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="t1_l10">
+        <Coords points="0,0 0,0"/>
+        <Baseline points="446,2105 3652,1998"/>
+        <TextEquiv>
+          <Unicode>on it without hesitation, resolutely maintained</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="t1_l11">
+        <Coords points="0,0 0,0"/>
+        <Baseline points="457,2281 3554,2169"/>
+        <TextEquiv>
+          <Unicode>that the Kingdom had not for ages been in so</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="t1_l12">
+        <Coords points="0,0 0,0"/>
+        <Baseline points="3185,2251 3676,2244"/>
+        <TextEquiv>
+          <Unicode>Percival</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="t1_l13">
+        <Coords points="0,0 0,0"/>
+        <Baseline points="461,2432 3684,2375"/>
+        <TextEquiv>
+          <Unicode>flourishing &amp; prosperous a state, and Mrs Peterson</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="t1_l14">
+        <Coords points="0,0 0,0"/>
+        <Baseline points="453,2656 3659,2533"/>
+        <TextEquiv>
+          <Unicode>with equal warmth, tho' perhaps leſs argument,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="t1_l15">
+        <Coords points="0,0 0,0"/>
+        <Baseline points="445,2840 3626,2787"/>
+        <TextEquiv>
+          <Unicode>as vehemently aſserted that the whole Nation</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="t1_l16">
+        <Coords points="0,0 0,0"/>
+        <Baseline points="449,3033 3667,2955"/>
+        <TextEquiv>
+          <Unicode>would speedily be ruined, and every thing as she</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="t1_l17">
+        <Coords points="0,0 0,0"/>
+        <Baseline points="445,3196 3688,3131"/>
+        <TextEquiv>
+          <Unicode>expreſsed herself be at sixes &amp; sevens. It was not</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="t1_l18">
+        <Coords points="0,0 0,0"/>
+        <Baseline points="444,3393 3666,3343"/>
+        <TextEquiv>
+          <Unicode>however unamusing to Kitty to listen to the</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="t1_l19">
+        <Coords points="0,0 0,0"/>
+        <Baseline points="448,3569 3703,3523"/>
+        <TextEquiv>
+          <Unicode>Dispute, especially as she began then to be more</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="t1_l20">
+        <Coords points="0,0 0,0"/>
+        <Baseline points="448,3749 3707,3728"/>
+        <TextEquiv>
+          <Unicode>free from pain, and without taking any share</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="t1_l21">
+        <Coords points="0,0 0,0"/>
+        <Baseline points="440,3965 3658,3937"/>
+        <TextEquiv>
+          <Unicode>in it herself, she found it very entertaining to</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="t1_l22">
+        <Coords points="0,0 0,0"/>
+        <Baseline points="435,4166 3724,4153"/>
+        <TextEquiv>
+          <Unicode>observe the eagerneſs with which they both defended</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="t1_l23">
+        <Coords points="0,0 0,0"/>
+        <Baseline points="434,4366 3719,4342"/>
+        <TextEquiv>
+          <Unicode>their opinions, and could not help thinking that</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion type="page-number" id="n1">
+      <Coords points="651,454 494,453 494,581 651,582"/>
+      <TextLine id="n1_l01">
+        <Coords points="0,0 0,0"/>
+        <Baseline points="494,574 651,575"/>
+      </TextLine>
+    </TextRegion>
+  </Page>
+</PcGts>
